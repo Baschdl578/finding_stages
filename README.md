@@ -21,7 +21,7 @@ The only other change is in coregrind/m_libcproc.c where the new method "read_na
    The output location of the access trace is hardcoded in "cg_sim.c", it is set to "/home/schindle/cg_X.csv".  
    Change it before compiling.
 
-   To build valgrind, simply execute "valgrind-3.13.0/mybuild".
+   To build valgrind, simply execute "valgrind-3.13.0/mybuild".  
    This will compile the software and install it to "/tmp/valgrind/".
 
    To record a trace of any application execute:  
@@ -34,10 +34,11 @@ The only other change is in coregrind/m_libcproc.c where the new method "read_na
    The executable is located under ./target/release/find_stages.
 
    It will look for the following parameters:
-   - &lt;file>: This is the input file. MUST be the first argument
+   - &lt;file>: This is the input file. MUST be the first argument  
      The file is in the csv format, with a semicolon as seperator between values.  
      Each line looks like this:  
      &lt;Operation>;&lt;Miss>;&lt;File>;&lt;Function>;&lt;Line>;&lt;Address>;&lt;Size>;&lt;Time>
    - filter=&lt;file>: Filter all functions from the input that occur in this trace. File format must be the same as the main input file.
+   - &lt;max_switches>: Maximum number of switches to insert
    - long: Simulate all the lowest overlaps in each segment. This will take a long time (see code comments for more)
    - brute-force: Brute force the analysis and skip the heuristics (This will take a long time).
