@@ -1,0 +1,31 @@
+Small dataset (314216 accesses in 500 segments):
+Find first point: 
+Simulate:
+Find second point:
+Simulate:
+Find third point:
+Simulate:
+Find fourth point:
+Simulate:
+Find fifth point:
+Simulate
+Find sixth point:
+Simulate:
+Find seventh point:
+Simulate:
+
+Large dataset (598470184 accesses in 500 segments):
+Find first point: 0.32 segments/s
+Simulate: 0.07 runs/s
+Find second point: 0.16 segments/s
+Simulate: 0.04 runs/s
+Find third point: 0.12
+Simulate: 0.07
+Find fourth point: 0.11
+Simulate: 0.07
+Find fifth point: 0.09
+Simulate: 0.07
+Find sixth point: 0.08
+Simulate: 0.07
+Find seventh point: 0.07
+Simulate: 0.07

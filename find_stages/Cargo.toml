@@ -1,0 +1,10 @@
+[package]
+name = "find_stages"
+version = "0.1.0"
+authors = ["Sebastian Schindler <remailer2@yahoo.de>"]
+
+[dependencies]
+time = "0.1"
+lazy_static = "0.2"
+num_cpus = "1.6"
+pbr = "1.0"
