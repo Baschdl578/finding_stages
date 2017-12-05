@@ -1,0 +1,6 @@
+sudo rm -r /tmp/valgrind/*
+sudo rm -r /tmp/ctest.txt
+sudo make clean
+./configure --prefix=/tmp/valgrind
+make -j9
+make install
