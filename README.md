@@ -35,8 +35,8 @@ The only other change is in coregrind/m_libcproc.c where the new method "read_na
 
    It will look for the following parameters:
    - &lt;file>: This is the input file. MUST be the first argument
-     The file is in the csv format, with a semicolon as seperator between values
-     Each line looks like this:
+     The file is in the csv format, with a semicolon as seperator between values.  
+     Each line looks like this:  
      &lt;Operation>;&lt;Miss>;&lt;File>;&lt;Function>;&lt;Line>;&lt;Address>;&lt;Size>;&lt;Time>
    - filter=&lt;file>: Filter all functions from the input that occur in this trace. File format must be the same as the main input file.
    - long: Simulate all the lowest overlaps in each segment. This will take a long time (see code comments for more)
