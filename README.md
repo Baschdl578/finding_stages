@@ -1,5 +1,5 @@
 # finding_stages
-Finding execution stages by memory access trace analysis
+Finding execution stages via memory access trace analysis
 
 This repository contains software to create and analyse a memory access trace to find execution stages in any program
 
