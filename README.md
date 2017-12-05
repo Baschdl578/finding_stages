@@ -17,6 +17,7 @@ The only other change is in coregrind/m_libcproc.c where the new method "read_na
 
 ## Building and running
 1. Valgrind
+
    The output location of the access trace is hardcoded in "cg_sim.c", it is set to "/home/schindle/cg_X.csv"
    Change it before compiling.
 
@@ -24,6 +25,7 @@ The only other change is in coregrind/m_libcproc.c where the new method "read_na
    This will compile the software and install it to "/tmp/valgrind/"
 
 2. find_stages
+
    To build the software, a working rust toolchain is required.
    Simply move into the directory and execute "cargo build --release".
 
